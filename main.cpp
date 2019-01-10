@@ -10,6 +10,7 @@ istream& operator >>(istream& in, Rational& r) {
 }
 
 //HELLO IM COMMENTING
+//MUR
 
 ostream& operator <<(ostream& out, const Rational& r) {
 	out << r.numer << "/" << r.denom;
